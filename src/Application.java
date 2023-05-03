@@ -48,16 +48,11 @@ public class Application {
 
 		String s1 = "ciao";
 		String s2 = "ciao";
-		s2 = "asdasda";
-		if (s1 == s2) {
-			System.out.println("Sono uguali");
-		} else {
-			System.out.println("Sono diversi");
-		}
+		
 
-		String s3 = new String("ciao");
+		String s3 = new String("ciao");//crei una nuova istanza e quindi allocazione di memoria (la comparazione darà diverso)
 
-		if (s1 == s3) {
+		if (s2 == s1) {
 			System.out.println("Sono uguali");
 		} else {
 			System.out.println("Sono diversi");
